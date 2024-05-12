@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+.NavyFedHeader{
+    padding-top: 75px;
+    text-align: center;
+    display: flex; /* Use flexbox */
+    justify-content: center; 
+}
+
+#NavyFed, #FAQ {
+    font-family: 'Kanit', sans-serif;
+    display: inline-block; /* Set display to inline-block */
+}
+
+#NavyFed{
+    font-size: 65px;
+    font-weight: bolder;
+    color: #000080;
+}
+
+#FAQ{
+    padding-left: 20px;
+    font-size: 35px;
+    margin: auto 0;
+    color: #000080;
+}
+
+
+
