@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+.QuestionInputWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.InputOutline{
+    border-color: black;
+    border-width: 2px;
+    height: 60px;
+    width: 530px;
+    border-radius: 25px;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 93% 7%;
+    align-items: center;
+}
+
+.QuestionInput{
+    outline: none; 
+    border-width: 0;
+    padding-left: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    background: none;
+}
+
+.QuestionInput::placeholder{
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+}

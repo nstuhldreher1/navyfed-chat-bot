@@ -3,7 +3,8 @@
 .NavyFedHeader{
     padding-top: 75px;
     text-align: center;
-    display: flex; /* Use flexbox */
+    display: flexbox; /* Use flexbox */
+    height: 175px;
     justify-content: center; 
 }
 
