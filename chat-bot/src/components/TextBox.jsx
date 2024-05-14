@@ -51,7 +51,7 @@ function TextBox(){
                         type = "text" 
                         value = {inputValue}
                         className='QuestionInput' 
-                        placeholder='Question'
+                        placeholder='Question then press Enter'
                         onKeyDown={handleKeyPress}
                         onChange={(e) => setInputValue(e.target.value)}
                     />
