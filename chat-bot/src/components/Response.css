@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+.Response{
+    font-family: 'Kanit', sans-serif;
+}
+
+#question{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#chatBot{
+    font-size: 18px;
+}
+
+#ResponseContainer{
+    width: 530px;
+    margin: auto;
+    padding-bottom: 50px;
+}
