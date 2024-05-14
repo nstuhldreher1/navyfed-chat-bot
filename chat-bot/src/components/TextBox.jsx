@@ -21,7 +21,7 @@ function TextBox(){
         }
 
         //TODO add submission Logic
-        axios.post('http://127.0.0.1:5000/query', request)
+        axios.post('https://flask-server-chatbot1-07d5acea7483.herokuapp.com/query', request)
             .then(response => {
                 console.log('Response:', response.data);
                 setLoading(false);
