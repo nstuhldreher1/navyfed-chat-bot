@@ -18,3 +18,24 @@
     margin: auto;
     padding-bottom: 50px;
 }
+
+@media screen and (max-width: 480px) {
+    .Response{
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    #question{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    #chatBot{
+        font-size: 18px;
+    }
+    
+    #ResponseContainer{
+        width: 90%;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+}
